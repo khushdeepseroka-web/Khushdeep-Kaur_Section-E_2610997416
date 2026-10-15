@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World Map Explorer</title>
+</head>
+    <body style="
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29ybGQlMjBtYXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');  
+    background-repeat:no-repeat;
+    background-size:cover;
+    ">
+
+
+<body>
+
+<header>
+    <h1>🌍 World Map Explorer</h1>
+    <p>Click on a country to learn more about it</p>
+</header>
+
+    <h2>Interactive World Map</h2>
+
+    <p>
+        Select any clickable region on the map to open information
+        about that country in a new tab.
+    </p>
+
+    
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPejg2Xy9ewkoufr0yc8JrrHn6u324yCtej1PA5cVdGg&s=10"
+            alt="Interactive World Map"
+            class="world-map"
+            usemap="#worldmap"
+        >
+
+        <!-- Image Map -->
+        <map name="worldmap">
+
+            <!-- NORTH AMERICA - POLYGON -->
+            <area
+                shape="poly"
+                coords="80,170,130,110,200,90,270,120,300,180,270,240,210,260,160,230,110,220"
+                href="https://en.wikipedia.org/wiki/United_States"
+                alt="United States"
+                target="_blank"
+            >
+
+            <!-- SOUTH AMERICA - POLYGON -->
+            <area
+                shape="poly"
+                coords="270,330,320,350,340,410,325,480,290,530,260,480,250,420"
+                href="https://en.wikipedia.org/wiki/Brazil"
+                alt="Brazil"
+                target="_blank"
+            >
+
+            <!-- INDIA - RECTANGLE -->
+            <area
+                shape="rect"
+                coords="535,270,575,320"
+                href="https://en.wikipedia.org/wiki/India"
+                alt="India"
+                target="_blank"
+            >
+
+            <!-- CHINA - RECTANGLE -->
+            <area
+                shape="rect"
+                coords="570,230,640,285"
+                href="https://en.wikipedia.org/wiki/China"
+                alt="China"
+                target="_blank"
+            >
+
+            <!-- AUSTRALIA - POLYGON -->
+            <area
+                shape="poly"
+                coords="690,410,760,390,830,420,850,470,810,510,730,500,680,460"
+                href="https://en.wikipedia.org/wiki/Australia"
+                alt="Australia"
+                target="_blank"
+            >
+
+            <!-- JAPAN - CIRCLE -->
+            <area
+                shape="circle"
+                coords="680,245,18"
+                href="https://en.wikipedia.org/wiki/Japan"
+                alt="Japan"
+                target="_blank"
+            >
+
+            <!-- UNITED KINGDOM - CIRCLE -->
+            <area
+                shape="circle"
+                coords="455,165,15"
+                href="https://en.wikipedia.org/wiki/United_Kingdom"
+                alt="United Kingdom"
+                target="_blank"
+            >
+
+            <!-- FRANCE - RECTANGLE -->
+            <area
+                shape="rect"
+                coords="445,195,475,225"
+                href="https://en.wikipedia.org/wiki/France"
+                alt="France"
+                target="_blank"
+            >
+
+            <!-- AFRICA - POLYGON -->
+            <area
+                shape="poly"
+                coords="450,280,510,275,550,330,540,400,500,470,460,430,440,360"
+                href="https://en.wikipedia.org/wiki/Africa"
+                alt="Africa"
+                target="_blank"
+            >
+
+            <!-- DEFAULT REGION -->
+            <area
+                shape="default"
+                href="https://en.wikipedia.org/wiki/World"
+                alt="World"
+                target="_blank"
+            >
+
+        </map>
+    </div>
+
+    <div class="info">
+        <h2>About This Project</h2>
+
+        <p>
+            This webpage demonstrates the use of HTML image maps and
+            hyperlinks. Different regions of the world map are made
+            clickable using the <code>&lt;area&gt;</code> element.
+        </p>
+
+        <ul>
+            <li><b>Circle:</b> Used for Japan and United Kingdom.</li>
+            <li><b>Rectangle:</b> Used for India, China and France.</li>
+            <li><b>Polygon:</b> Used for countries/regions with irregular shapes.</li>
+            <li><b>Default:</b> Opens general information about the world.</li>
+            <li><b>target="_blank":</b> Opens information in a new browser tab.</li>
+            <li><b>alt:</b> Describes each clickable region.</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>BCA AI/ML/CST Assignment | World Map Explorer</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
