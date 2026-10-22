@@ -1,0 +1,111 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Readers' Haven</title>
+</head>
+<body>
+
+    <h1 align="center">Readers' Haven</h1>
+    <h2>Book Registration and Order Form</h2>
+
+    <form>
+
+        <h3>1. Customer Information</h3>
+
+        Customer Name:
+        <input type="text" name="name" required>
+        <br><br>
+
+        Email:
+        <input type="email" name="email" required>
+        <br><br>
+
+        Mobile Number:
+        <input type="tel" name="mobile">
+        <br><br>
+
+        Age:
+        <input type="number" name="age">
+        <br><br>
+
+        Password:
+        <input type="password" name="password" required>
+        <br><br>
+
+        <h3>2. Book Preferences</h3>
+
+        Favorite Book Category:
+        <select name="category">
+            <option>Fiction</option>
+            <option>Science</option>
+            <option>History</option>
+            <option>Children's Books</option>
+        </select>
+        <br><br>
+
+        Book Title:
+        <input type="text" name="book">
+        <br><br>
+
+        Quantity:
+        <input type="number" name="quantity" value="1">
+        <br><br>
+
+        <h3>3. Delivery Information</h3>
+
+        Delivery Date:
+        <input type="date" name="date">
+        <br><br>
+
+        Delivery Time:
+        <input type="time" name="time">
+        <br><br>
+
+        Delivery Address:
+        <textarea name="address" rows="3" cols="25"></textarea>
+        <br><br>
+
+        <h3>4. Payment Method</h3>
+
+        <input type="radio" name="payment" value="COD">
+        Cash on Delivery
+
+        <input type="radio" name="payment" value="Online">
+        Online Payment
+        <br><br>
+
+        <h3>5. Additional Services</h3>
+
+        <input type="checkbox" name="gift"> Gift Wrapping
+        <br>
+
+        <input type="checkbox" name="bookmark"> Bookmark
+        <br>
+
+        <input type="checkbox" name="express"> Express Delivery
+        <br>
+
+        <input type="checkbox" name="card"> Greeting Card
+        <br><br>
+
+        <h3>6. Additional Details</h3>
+
+        <input type="hidden" name="order" value="Book Order">
+
+        Upload Document:
+        <input type="file" name="document">
+        <br><br>
+
+        Special Instructions:
+        <textarea name="instructions" rows="3" cols="25"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit Order">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+</body>
+</html>
+```

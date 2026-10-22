@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Course Registration</title>
+</head>
+<body>
+
+    <h2>Online Course Registration</h2>
+
+    <form>
+
+        <input type="hidden" name="form_name"
+        value="Course Registration">
+
+        Student Name:
+        <input type="text" name="name" required>
+        <br><br>
+
+        Email:
+        <input type="email" name="email" required>
+        <br><br>
+
+        Mobile Number:
+        <input type="tel" name="mobile">
+        <br><br>
+
+        Age:
+        <input type="number" name="age">
+        <br><br>
+
+        Password:
+        <input type="password" name="password" required>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        Skills:
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="Python"> Python
+        <br><br>
+
+        Select Course:
+        <select name="course">
+            <option>Web Development</option>
+            <option>Python Programming</option>
+            <option>Data Analytics</option>
+            <option>Digital Marketing</option>
+        </select>
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="dob">
+        <br><br>
+
+        Preferred Class Time:
+        <input type="time" name="time">
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="3" cols="25"></textarea>
+        <br><br>
+
+        Upload Document:
+        <input type="file" name="document">
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
